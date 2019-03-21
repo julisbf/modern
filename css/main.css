@@ -1,0 +1,18 @@
+html {
+  background: url('../images/Modern-1@2x.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.icons {
+  position: fixed;
+  bottom: 34px;
+  left: 50%;
+}
+
+.icons a {
+  display: inline-block;
+  width: 35px;
+  margin-right: 10px;
+}
