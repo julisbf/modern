@@ -62,19 +62,19 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202276/modern/gallery/2_Status.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,${currentSize}/v1612202276/modern/gallery/2_Status.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202283/modern/gallery/3_Status.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612202283/modern/gallery/3_Status.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202295/modern/gallery/4_Status.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,${currentSize}/v1612202295/modern/gallery/4_Status.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202280/modern/gallery/5_Status.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612202280/modern/gallery/5_Status.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202288/modern/gallery/1_Status.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612202288/modern/gallery/1_Status.jpg`
       }]);
     }
   });
@@ -85,13 +85,13 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202961/modern/gallery/2_Huarache.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,${currentSize}/v1612202961/modern/gallery/2_Huarache.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202966/modern/gallery/3_Huarache.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,${currentSize}/v1612202966/modern/gallery/3_Huarache.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612202963/modern/gallery/1_Huarache.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,${currentSize}/v1612202963/modern/gallery/1_Huarache.jpg`
       }]);
     }
   });
@@ -102,13 +102,13 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205581/modern/gallery/2_Bang.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205581/modern/gallery/2_Bang.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205579/modern/gallery/3_Bang.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205579/modern/gallery/3_Bang.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205610/modern/gallery/1_Bang.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205610/modern/gallery/1_Bang.jpg`
       }]);
     }
   });
@@ -119,13 +119,13 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205598/modern/gallery/2_Deerupt.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612217428/modern/gallery/2_Deerupt.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205593/modern/gallery/3_Deerupt.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612217435/modern/gallery/3_Deerupt.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205602/modern/gallery/1_Deerupt.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612217431/modern/gallery/1_Deerupt.jpg`
       }]);
     }
   });
@@ -136,16 +136,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205758/modern/gallery/2_Swatch.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205758/modern/gallery/2_Swatch.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205986/modern/gallery/3_Swatch.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205986/modern/gallery/3_Swatch.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205758/modern/gallery/4_Swatch.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205758/modern/gallery/4_Swatch.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612205763/modern/gallery/1_Swatch.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612205763/modern/gallery/1_Swatch.jpg`
       }]);
     }
   });
@@ -156,16 +156,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/2_PrimeKnit.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_PrimeKnit.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121578/modern/gallery/3_PrimeKnit.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121578/modern/gallery/3_PrimeKnit.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121572/modern/gallery/4_PrimeKnit.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121572/modern/gallery/4_PrimeKnit.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121542/modern/gallery/1_PrimeKnit.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121542/modern/gallery/1_PrimeKnit.jpg`
       }]);
     }
   });
@@ -176,16 +176,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121541/modern/gallery/2_AiAiAi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121541/modern/gallery/2_AiAiAi.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121550/modern/gallery/3_AiAiAi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121550/modern/gallery/3_AiAiAi.jpg`
       },{
         'type' : 'image', 
         'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:good,c_scale,${currentSize}/v1612121557/modern/gallery/4_AiAiAi.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121541/modern/gallery/1_AiAiAi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121541/modern/gallery/1_AiAiAi.jpg`
       }]);
     }
   });
@@ -196,16 +196,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:good,c_scale,${currentSize}/v1612121560/modern/gallery/2_Alessi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_Alessi.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/3_Alessi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/3_Alessi.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:good,c_scale,${currentSize}/v1612121560/modern/gallery/4_Alessi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/4_Alessi.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/1_Alessi.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/1_Alessi.jpg`
       }]);
     }
   });
@@ -216,16 +216,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/2_Avengers.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_Avengers.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/3_Avengers.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/3_Avengers.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/4_Avengers.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/4_Avengers.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/1_Avengers.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/1_Avengers.jpg`
       }]);
     }
   });
@@ -236,10 +236,10 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/2_Eight.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_Eight.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/1_Eight.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/1_Eight.jpg`
       }]);
     }
   });
@@ -250,16 +250,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/2_Ruby.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_Ruby.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/3_Ruby.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/3_Ruby.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/4_Ruby.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/4_Ruby.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/1_Ruby.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/1_Ruby.jpg`
       }]);
     }
   });
@@ -270,16 +270,16 @@ $(document).ready(function () {
     afterLoad : function( instance, current ) {
       instance.addContent([{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/2_R2.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/2_R2.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/3_R2.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/3_R2.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/4_R2.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/4_R2.jpg`
       },{
         'type' : 'image', 
-        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,${currentSize}/v1612121560/modern/gallery/1_R2.jpg`
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612121560/modern/gallery/1_R2.jpg`
       }]);
     }
   });
