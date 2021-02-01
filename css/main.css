@@ -1,14 +1,11 @@
 @font-face {
-  font-family: "TT Commons W01";
-  src: url("https://db.onlinewebfonts.com/t/641c9e475af26c0f996b4b3b11a1c2b2.woff");
-  src: url("https://db.onlinewebfonts.com/t/641c9e475af26c0f996b4b3b11a1c2b2.woff2")
-      format("woff2"),
-    url("https://db.onlinewebfonts.com/t/641c9e475af26c0f996b4b3b11a1c2b2.woff")
-      format("woff"),
-    url("https://db.onlinewebfonts.com/t/641c9e475af26c0f996b4b3b11a1c2b2.ttf")
-      format("truetype"),
-    url("https://db.onlinewebfonts.com/t/641c9e475af26c0f996b4b3b11a1c2b2.svg#TT Commons W01")
-      format("svg");
+  font-family: "tt_commons_w01regular";
+  src: local("tt_commons_w01regular"),
+    url("../font/tt_commons_w01_medium-webfont.woff2") format("woff2"),
+    url("../font/tt_commons_w01_medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 * {
@@ -21,14 +18,13 @@ html,
 body {
   height: 100%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
 }
 
 body {
   background-color: #000000;
   color: #ffffff;
   font-size: 16px;
-  font-family: "TT Commons W01", Arial, Helvetica, sans-serif;
+  font-family: "tt_commons_w01regular", Arial, Helvetica, sans-serif;
 }
 
 .top-bar {
@@ -67,22 +63,11 @@ body {
   margin: 0 1rem;
 }
 
-.contact__email {
-  width: 32px;
-}
-
-.contact__linkedin {
-  width: 24px;
-}
-
-.contact__instagram {
-  width: 26px;
-}
-
 .hero {
   position: relative;
   width: 100%;
   height: 100%;
+  overflow-x: hidden;
 }
 
 .hero__image {
@@ -95,7 +80,7 @@ body {
 .hero__btn {
   position: absolute;
   bottom: 40px;
-  left: 50%;
+  left: calc(50vw - 22px);
   z-index: 2;
   display: inline-block;
   -webkit-transform: translate(0, -50%);
@@ -141,6 +126,27 @@ body {
 
 .thumb {
   max-width: 320px;
+  width: 320px;
+  height: 320px;
+}
+
+.footer,
+.font-author {
+  text-align: center;
+}
+
+.footer {
+  margin-bottom: 1rem;
+}
+
+.font-author a {
+  color: #a5a5a5;
+  text-decoration: none;
+}
+
+.font-author a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 @-webkit-keyframes sdb04 {
