@@ -1,24 +1,146 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Modern - Art Direction • Product Viz (CGI) • Post Production • NYC based</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <meta name="description" content="Art direction and 3D visualization for hardware products. 3d modeling, CMF design, material creation, studio setups and post production to make every little pop." />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.min.css" />
   </head>
   <body>
-    <div class="icons">
-      <a href="https://www.behance.net/madeatmodern" target="_blank" rel="noopener"
-        ><img src="images/behance-icon.svg"
-      /></a>
-      <a href="https://www.linkedin.com/in/juan-clavijo-69174b88/" target="_blank" rel="noopener"
-        ><img src="images/linkedin-icon.svg"
-      /></a>
-      <a href="https://www.instagram.com/madeatmodern/" target="_blank" rel="noopener"
-        ><img src="images/instagram.svg"
-      /></a>
-    </div>
+    <header id="top-bar" class="top-bar compensate-for-scrollbar">
+      <h1 class="top-bar__logo">
+        <img src="images/modern-logo.svg" alt="Modern logo" width="153" height="32px">
+      </h1>
+      <div class="top-bar__contact">
+        <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%6D%61%64%65%61%74%6D%6F%64%65%72%6E%2E%63%6F%6D" target="_blank" rel="noopener noreferrer">
+          <img class="contact__email" src="images/email.svg" alt="White envelop" title="Send an email to Modern" width="32" height="25" />
+        </a>
+        <a href="https://www.linkedin.com/in/juan-clavijo-69174b88/" target="_blank" rel="noopener">
+          <img class="contact__linkedin" src="images/linkedin.svg" alt="linkedin logo - an i and n letters" width="24" height="26" />
+        </a>
+        <a href="https://www.instagram.com/madeatmodern/" target="_blank" rel="noopener">
+          <img class="contact__instagram" src="images/instagram.svg" alt="instagram logo - square with rounded corners, in the middle a circle and small dot close to the right top corner" 
+          width="26" height="26"/>
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <picture>
+          <source media="(max-width: 767px)" sizes="(max-width: 767px) 100vw, 767px"
+            srcset="
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420/c_scale,w_767/v1612103545/modern/Modern_828.jpg 767w">
+          <source media="(min-width: 768px) and (max-width: 991px)" sizes="(max-width: 1200px) 70vw, 720px"
+            srcset="
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420/c_scale,w_538/v1612103553/modern/Modern_2048_v2.jpg 538w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420/c_scale,w_694/v1612103553/modern/Modern_2048_v2.jpg 694w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420/c_scale,w_720/v1612103553/modern/Modern_2048_v2.jpg 720w">
+          <img class="hero__image" sizes="(max-width: 4800px) 40vw, 1920px" srcset="
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420,c_scale,w_480/v1612103549/modern/Modern_2880.jpg 480w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_90:420,c_scale,w_1024/v1612103549/modern/Modern_2880.jpg 994w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1386/v1612103549/modern/Modern_3840.jpg 1386w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1716/v1612102270/modern/Modern_3840.jpg 1716w,
+        https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612102270/modern/Modern_3840.jpg 1920w"
+            src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612102270/modern/Modern_3840.jpg" alt="Modern logo in 3D" width="1440" height="900">
+        </picture>
+        <a class="hero__btn" href="#grid-section"><span class="hero__arrow"></span>Scroll</a>
+      </section>
+      <section id="grid-section" class="gallery">
+        <div class="image-container">
+          <a id="thumb12" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612202288/modern/gallery/1_Status.jpg" data-fancybox="Status">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612202983/modern/thumbnails/1_Status.jpg"
+              alt="Close up right side Status wireless earbud in black and blue" loading="lazy" width="320" height="320">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb11" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_100,c_scale,w_1920/v1612202963/modern/gallery/1_Huarache.jpg" data-fancybox="Huarache">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612202987/modern/thumbnails/2_Huarache.jpg"
+              alt="Huarache Nike sneaker tongue and laces with green and brown leather. Logo in orange" loading="lazy" width="320" height="320">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb10" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612205610/modern/gallery/1_Bang.jpg" data-fancybox="Bang">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612214548/modern/thumbnails/1_Bang.jpg"
+              alt="Bang and Olufsen Modular, Wall Mounted Speaker System with panels in green, blue, brown and different patterns" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb9" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612217431/modern/gallery/1_Deerupt.jpg" data-fancybox="Deerupt">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612207205/modern/thumbnails/4_Deerupt.jpg"
+              alt="Adidas Deerupt close up of black laces and green tongue" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb8" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612205763/modern/gallery/1_Swatch.jpg" data-fancybox="Swatch">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612206872/modern/thumbnails/5_Swatch.jpg"
+              alt="Swatch Irony close up to the crown and partial case" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb7"
+            href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612185781/modern/gallery/1_R2.jpg"
+            data-fancybox="R2">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612117887/modern/thumbnails/8_R2D2.jpg"
+              alt="Starwars R2D2 by Littlebits, front close up with red light on, case transparent and blue stickers" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb6" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612121542/modern/gallery/1_PrimeKnit.jpg" data-fancybox="PrimeKnit">
+            <img class="thumb" 
+            src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612117888/modern/thumbnails/1_PrimeKnit.jpg" 
+            alt="Adidas Prime Knit close up of the purple and litght blue mesh and light blue outsole with background peach" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb5"
+            href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612121541/modern/gallery/1_Avengers.jpg"
+            data-fancybox="Avengers">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612117886/modern/thumbnails/4_Avengers.jpg"
+              alt="Ironman glove by Littlebits, close up front with golden cover and fingers in red" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb4" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612185776/modern/gallery/1_Ruby.jpg" data-fancybox="Ruby">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612117890/modern/thumbnails/6_Ruby.jpg"
+              alt="Ruby helmet close up of the logo with Keith Haring pattern" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb3" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612185801/modern/gallery/1_Eight.jpg" data-fancybox="Eight">
+            <img class="thumb"
+              src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612117887/modern/thumbnails/5_Eight.jpg"
+              alt="Describe image" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb2" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco,c_scale,w_1920/v1612121545/modern/gallery/1_Alessi.jpg" data-fancybox="Alessi">
+            <img class="thumb" src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612210128/modern/thumbnails/3_Alessi.jpg" 
+            alt="Alessi Ana G corkscrew chromeplated zamak in a dazzle camouflage background" width="320" height="320" loading="lazy">
+          </a>
+        </div>
+        <div class="image-container">
+          <a id="thumb1" href="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,w_1920/v1612121541/modern/gallery/1_AiAiAi.jpg" data-fancybox="AIAIAI">
+            <img class="thumb" src="https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:eco/v1612210129/modern/thumbnails/2_AIAIAI.jpg" 
+            alt="3 AIAIAI tma-1 black headphones in purple background" loading="lazy" width="320" height="320">
+          </a>
+        </div>
+      </section>
+    </main>
+    <div class="font-author"><small><a href="http://www.onlinewebfonts.com">oNline Web Fonts</a></small></div>
+    <footer class="footer"></footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js" defer></script>
+    <script src="js/main.min.js" defer></script>
   </body>
 </html>
