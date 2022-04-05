@@ -283,4 +283,52 @@ $(document).ready(function () {
       }]);
     }
   });
+
+  $('[data-fancybox="Filson"]').fancybox({
+     protect: true,
+    infobar: false,
+    afterLoad : function( instance, current ) {
+      instance.addContent([{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612185785/modern/gallery/2_Filson.jpg`
+      },{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1612185785/modern/gallery/1_Filson.jpg`
+      }]);
+    }
+  });
+
+  $('[data-fancybox="PelotonDumbBells"]').fancybox({
+     protect: true,
+    infobar: false,
+    afterLoad : function( instance, current ) {
+      instance.addContent([{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649188007/modern/gallery/2_Peloton_DumbBells.jpg`
+      },{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649188007/modern/gallery/3_Peloton_DumbBells.jpg`
+      },{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649188007/modern/gallery/1_Peloton_DumbBells.jpg`
+      }]);
+    }
+  });
+
+  $('[data-fancybox="PelotonAltos"]').fancybox({
+     protect: true,
+    infobar: false,
+    afterLoad : function( instance, current ) {
+      instance.addContent([{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649190764/modern/gallery/2_Peloton_Altos.jpg`
+      },{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649190764/modern/gallery/3_Peloton_Altos.jpg`
+      },{
+        'type' : 'image', 
+        'src'  : `https://res.cloudinary.com/dnlmdpqac/image/upload/q_auto:best,c_scale,${currentSize}/v1649190764/modern/gallery/1_Peloton_Altos.jpg`
+      }]);
+    }
+  });
 });
